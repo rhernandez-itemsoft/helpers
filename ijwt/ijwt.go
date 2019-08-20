@@ -3,8 +3,8 @@ package ijwt
 import (
 	"errors"
 	"io/ioutil"
-	isec_conf_rsa "itemsoftmx/helpers/isecurity/configrsa"
-	isecuritystt "itemsoftmx/helpers/isecurity/structs"
+	isec_conf_rsa "github.com/rhernandez-itemsoft/helpers/isecurity/configrsa"
+	isecuritystt "github.com/rhernandez-itemsoft/helpers/isecurity/structs"
 	"log"
 	"strings"
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"itemsoftmx/helpers/ijwt"
-	ilogstt "itemsoftmx/helpers/ilog/structs"
+	"github.com/rhernandez-itemsoft/helpers/ijwt"
+	ilogstt "github.com/rhernandez-itemsoft/helpers/ilog/structs" 
 	"os"
 	"reflect"
 	"runtime"

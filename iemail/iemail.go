@@ -6,7 +6,7 @@ package iemail
 import (
 	"crypto/tls"
 
-	iemailstt "itemsoftmx/helpers/iemail/structs"
+	iemailstt "github.com/rhernandez-itemsoft/helpers/iemail/structs"
 
 	"gopkg.in/gomail.v2"
 )

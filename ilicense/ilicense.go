@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	hwi "itemsoftmx/helpers/hardwareinfo"
-	ilicensestt "itemsoftmx/helpers/ilicense/structs"
-	"itemsoftmx/helpers/iresponse"
+	hwi "github.com/rhernandez-itemsoft/helpers/hardwareinfo"
+	ilicensestt "github.com/rhernandez-itemsoft/helpers/ilicense/structs"
+	"github.com/rhernandez-itemsoft/helpers/iresponse"
 
-	iresponsestt "itemsoftmx/helpers/iresponse/structs"
+	iresponsestt "github.com/rhernandez-itemsoft/helpers/iresponse/structs"
 	"net/http"
 
 	"github.com/kataras/iris"

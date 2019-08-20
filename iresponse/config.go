@@ -1,8 +1,8 @@
 package iresponse
 
 import (
-	"itemsoftmx/helpers/icommon"
-	iresponsestt "itemsoftmx/helpers/iresponse/structs"
+	"github.com/rhernandez-itemsoft/helpers/icommon"
+	iresponsestt "github.com/rhernandez-itemsoft/helpers/iresponse/structs"
 )
 
 //DefaultConfig regresa la configuración por default

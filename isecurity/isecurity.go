@@ -9,12 +9,13 @@ import (
 
 	"github.com/go-xorm/xorm"
 
-	"itemsoftmx/helpers/ijwt"
-	"itemsoftmx/helpers/iresponse"
-	isecuritystt "itemsoftmx/helpers/isecurity/structs"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/rhernandez-itemsoft/helpers/ijwt"
+	"github.com/rhernandez-itemsoft/helpers/iresponse"
+	isecuritystt "github.com/rhernandez-itemsoft/helpers/isecurity/structs"
 
 	"github.com/kataras/iris"
 	"gopkg.in/dgrijalva/jwt-go.v3"

@@ -4,18 +4,20 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"itemsoftmx/helpers/i18n"
-	"itemsoftmx/helpers/icommon"
-	"itemsoftmx/helpers/ijwt"
-	ilogger "itemsoftmx/helpers/ilog"
 	"log"
 	"runtime"
 
-	iresponsestt "itemsoftmx/helpers/iresponse/structs"
+	"github.com/rhernandez-itemsoft/helpers/i18n"
+	"github.com/rhernandez-itemsoft/helpers/icommon"
+	"github.com/rhernandez-itemsoft/helpers/ijwt"
+	ilogger "github.com/rhernandez-itemsoft/helpers/ilog"
+
 	"os"
 	"reflect"
 	"strings"
 	"time"
+
+	iresponsestt "github.com/rhernandez-itemsoft/helpers/iresponse/structs"
 
 	"github.com/go-xorm/xorm"
 	"github.com/kataras/iris"

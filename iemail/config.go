@@ -1,7 +1,7 @@
 package iemail
 
 import (
-	iemailstt "itemsoftmx/helpers/iemail/structs"
+	iemailstt "github.com/rhernandez-itemsoft/helpers/iemail/structs"
 )
 
 //DefaultConfig regresa la configuración por default

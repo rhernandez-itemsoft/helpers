@@ -1,7 +1,7 @@
 package ilicense
 
 import (
-	ilicensestt "itemsoftmx/helpers/ilicense/structs"
+	ilicensestt "github.com/rhernandez-itemsoft/helpers/ilicense/structs"
 )
 
 //DefaultConfig regresa la configuración por default

@@ -1,8 +1,8 @@
 package ilog
 
 import (
-	"itemsoftmx/helpers/icommon"
-	ilogstt "itemsoftmx/helpers/ilog/structs"
+	"github.com/rhernandez-itemsoft/helpers/icommon"
+	ilogstt "github.com/rhernandez-itemsoft/helpers/ilog/structs"
 )
 
 //DefaultConfig regresa la configuración por default

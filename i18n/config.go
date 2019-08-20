@@ -1,7 +1,7 @@
 package i18n
 
 import (
-	i18nstt "itemsoftmx/helpers/i18n/structs"
+	i18nstt "github.com/rhernandez-itemsoft/helpers/i18n/structs"
 )
 
 //DefaultConfig regresa la configuración por default
