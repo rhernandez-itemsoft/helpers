@@ -7,7 +7,7 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/rhernandez-itemsoft/helpers/i18n"
+	
 	"github.com/rhernandez-itemsoft/helpers/icommon"
 	"github.com/rhernandez-itemsoft/helpers/ijwt"
 	ilogger "github.com/rhernandez-itemsoft/helpers/ilog"
@@ -60,7 +60,7 @@ func (def *Definition) JSON(statusCode int, data interface{}, iMessages ...strin
 	} else {
 
 		for _, message := range iMessages {
-			msg := i18n.Translate(def.Ctx, message)
+			msg := message //i18n.Translate(def.Ctx, message)
 
 			if msg == "" {
 				msgs = append(msgs, message)

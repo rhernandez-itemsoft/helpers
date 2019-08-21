@@ -1,12 +1,17 @@
 package main
 
 import (
-	"github.com/rhernandez-itemsoft/helpers/iresponse"
+	"fmt"
 
+	"github.com/rhernandez-itemsoft/helpers/iresponse"
+	"github.com/kataras/iris"
 	"github.com/go-xorm/xorm"
 )
 
-func main() {}
+func main() {
+
+	fmt.Println(iris.Version)
+}
 
 //GralConfigStt Establece la configuración general
 type GralConfigStt struct {
