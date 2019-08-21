@@ -7,7 +7,7 @@ import (
 	"log"
 	"runtime"
 
-	
+	"github.com/kataras/iris/middleware/i18n"
 	"github.com/rhernandez-itemsoft/helpers/icommon"
 	"github.com/rhernandez-itemsoft/helpers/ijwt"
 	ilogger "github.com/rhernandez-itemsoft/helpers/ilog"
@@ -50,8 +50,7 @@ func New(ctx iris.Context, db *xorm.Engine) Definition {
 //JSON retorna una respuesta en formato JSON
 func (def *Definition) JSON(statusCode int, data interface{}, iMessages ...string) {
 	var msgs []string
-	fmt.Println(".......JSON.........")
-	fmt.Println(data)
+
 	if def.Ctx == nil {
 		//strErr := fmt.Sprintf("iresponse.JSON - NO RECIBIO EL CONTEXT. statusCode: %v, data: %v, iMessages: %v", statusCode, data, iMessages)
 		strErr := fmt.Sprintf("iresponse.JSON - NO RECIBIO EL CONTEXT.")
@@ -60,7 +59,7 @@ func (def *Definition) JSON(statusCode int, data interface{}, iMessages ...strin
 	} else {
 
 		for _, message := range iMessages {
-			msg := message //i18n.Translate(def.Ctx, message)
+			msg := i18n.Translate(def.Ctx, message)
 
 			if msg == "" {
 				msgs = append(msgs, message)
