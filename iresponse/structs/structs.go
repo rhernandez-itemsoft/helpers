@@ -49,7 +49,7 @@ type Config struct {
 type Format struct {
 	Time     string      `json:"time" xorm:"TIMESTAMP not null 'time'"`
 	Type     string      `json:"type" xorm:"varchar(10) not null 'type'"`
-	UserID   int         `json:"user_id" xorm:"int notnull 'user_id'"`
+	UserID   int64       `json:"user_id" xorm:"int notnull 'user_id'"`
 	IP       string      `json:"ip" xorm:"varchar(16) not null 'ip'"`
 	Function string      `json:"function" xorm:"varchar(100) not null 'function'"`
 	Line     string      `json:"line" xorm:"varchar(10) not null 'line'"`
