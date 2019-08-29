@@ -3,10 +3,11 @@ package ijwt
 import (
 	"errors"
 	"io/ioutil"
-	isec_conf_rsa "github.com/rhernandez-itemsoft/helpers/isecurity/configrsa"
-	isecuritystt "github.com/rhernandez-itemsoft/helpers/isecurity/structs"
 	"log"
 	"strings"
+
+	isec_conf_rsa "github.com/rhernandez-itemsoft/helpers/isecurity/configrsa"
+	isecuritystt "github.com/rhernandez-itemsoft/helpers/isecurity/structs"
 
 	"github.com/kataras/iris"
 	"github.com/mitchellh/mapstructure"

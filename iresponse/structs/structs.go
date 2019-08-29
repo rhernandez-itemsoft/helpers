@@ -8,6 +8,14 @@ type IResponse struct {
 	Data       interface{}
 }
 
+//IMatTable formato de respuesta para la tabla de material
+type IMatTable struct {
+	//Total total de registros
+	Total int64
+	//Rows filas que se mostraran en la tabla
+	Rows interface{}
+}
+
 //Config define como se procesará el log de las peticiones HTTP
 type Config struct {
 	//Activa o Desactiva el registro de peticiones HTTP
